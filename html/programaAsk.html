@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <!--Links de bootstrap-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <!-- Popper JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+     <script src="https://kit.fontawesome.com/105eae53a8.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+
+  <script src="../js/programaAsk.js"></script>
+	<link rel="stylesheet" href="../css/estiloAsk.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>Programas</h1>
+			</div>
+			<nav class="menu">
+				<a href="../index.html">Inicio</a>
+				<a href="#">Nosotros</a>
+				<a href="#">Blog</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="../html/programaCajas.html">Crear Cajas</a>
+				<a href="../html/programaAsk.html">Encuesta de Usuario </a>
+			
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+    
+</div>
+<article id="encuesta" class="contenedor">
+    <form class="formulario">
+    <h1 class="titulo"> Programa de encuesta</h1>
+    <br />
+    <label for="">¿Qué especialidad de Tecnologias de la informacion escoges?</label>
+    <select name="" id="res1">
+      <option valuees1="Entornos Virtuales">Entornos Virtuales</option>
+      <option value="Desarrollo de Software ">Desarrollo de Software </option>
+      <option value="Infraestructura de Redes">Infraestructura de Redes</option>
+    </select>
+    <br />
+    <br />
+    <label for="">¿Qué materia te gustaria mas de la carrera ?</label>
+    <select name="" id="res2">
+      <option value="Modelado Digital">Modelado Digital</option>
+      <option value="Desarrollo de Freamworks">Desarrollo de Freamworks</option>
+      <option value="Mercadotecnia digital">Mercadotecnia digital</option>
+    </select>
+    <br />
+    <br />
+    <label for="">¿Qué lenguaje de programacion has querido aprender?</label>
+    <select name="" id="res3">
+      <option value="Java">Java</option>
+      <option value="C#">C#</option>
+      <option value="C++">C++</option>
+    </select>
+    <br />
+    <br />
+    <label for="">¿Que es lo que mas te gustaria hacer?</label>
+    <select name="" id="res4">
+      <option value="Desarrollo de paginas ">Desarrollo de paginas </option>
+      <option value="Creación de Videojuegos">Creación de Videojuegos</option>
+      <option value="Diseñador">Diseñador </option>
+    </select>
+    <br />
+    <br />
+    <label for="">¿Que marca de computadora tienes ?</label>
+    <select name="" id="res5">
+      <option value="Asus">Asus</option>
+      <option value="Lenovo">Lenovo</option>
+      <option value="Acer">Acer</option>
+    </select>
+    <br />
+    <br />
+    <input  class="btn btn-success boton"  type="button" value="Mostrar" onclick="mostrarencuesta()" />
+    <br />
+    <br />
+    <section id="resultado2"></section>
+</form>
+  </article>
+</section>
+</section>
+
+
+
+
+
+</body>
+</html>

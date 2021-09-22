@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+    <!--Links de bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/105eae53a8.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" href="../css/estiloCajas.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>Programas</h1>
+			</div>
+			<nav class="menu">
+				<a href="../index.html">Inicio</a>
+				<a href="#">Nosotros</a>
+				<a href="#">Blog</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="../html/programaCajas.html">Crear Cajas</a>
+				<a href="../html/programaAsk.html">Encuesta de Usuario </a>
+			
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+<section id="preg" class="text-center">
+	<form class="formulario">
+		<h1 id="titulo">Programa Cajas </h1>
+		<br>
+		
+		<div class="form-group">
+			
+			<input type="text" id="numCajas" class="form-control" placeholder="Ingrese el número de cajas ">
+		</div>
+		<div class="form-group">
+			<label>Seleccione  un color</label>
+			<select name="colores" id="colores" class="form-select">
+				<option value="lawngreen">Verde</option>
+				<option value="white">Blanco</option>
+				<option value="red">Rojo</option>
+				
+			</select>
+			<label>Seleccione  el tipo de borde</label>
+			<select name="bordes" id="bordes" class="form-select">
+			
+				<option value="dotted">Punteado</option>
+				<option value="dashed">Dashed</option>
+				<option value="double">Doble</option>
+				
+				
+			</select>
+		</div>
+		<div class="form-group">
+			<a class="btn btn-success boton" onClick="crearCajas()">Mostrar Cajas</a>
+		</div>
+	</form>
+</section>
+
+
+
+<aside id="cajas" class="">
+	<script src="../js/programaCajas.js"></script>
+</aside>
+
+</body>
+</html>
